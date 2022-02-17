@@ -9,7 +9,7 @@ In this explanatory we will overview
 
 
 ## Software Design and Implementation
-The library's approach on metadata is that any piece of data that provides an unique frame-related info is a potential attribute. Therefore `librealsense2` does not limit itself to hardware-originated data, but establishes an infrastructure to capture and encapsulate  software-originated attributes as well.
+The library's approach on metadata is that any piece of data that provides a unique frame-related info is a potential attribute. Therefore `librealsense2` does not limit itself to hardware-originated data, but establishes an infrastructure to capture and encapsulate  software-originated attributes as well.
 
 The low-level design and implementation follows those two guidelines:
 - All the attributes shall be prepared, packed and distributed as an integral part of `rs2_frame` object.
